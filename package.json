@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "SEYI_JS",
   "license": "MIT",
   "dependencies": {
-    "web3": "^1.7.1"
+    "web3": "^1.7.1",
+    "web3-eth-contract": "^1.7.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
